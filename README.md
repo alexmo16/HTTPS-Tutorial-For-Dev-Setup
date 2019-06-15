@@ -1,6 +1,8 @@
 # Self-Signed-With-Chrome
 A tutorial to setup a HTTPS server trusted by Google Chrome running on localhost.
 
+**** This is for development purpose only, do not use this certificate in production ****
+
 1. Create a config file named req.cnf, this is the file openssl will rely on, to generate your certificate:
     
         [req]
